@@ -128,9 +128,9 @@ DATABASE_URL=postgresql://postgres:YOUR_PASSWORD@localhost:5432/intentroute
 | `@` | `%40` |
 | `!` | `%21` |
 
-Example — password `pzqm123#$` becomes:
+Example — password `` becomes:
 ```
-DATABASE_URL=postgresql://postgres:pzqm123%23%24@localhost:5432/intentroute
+DATABASE_URL=postgresql://postgres:%23%24@localhost:5432/intentroute
 ```
 
 ---
